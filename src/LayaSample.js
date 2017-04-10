@@ -13,6 +13,10 @@
         LayaSample.gameStart = new GameStart();
         Laya.stage.addChild(LayaSample.gameStart);
     }
+    function progress(proce){
+        console.log(proce);
+    }
+    
 })(window.LayaSample || (window.LayaSample = {}))
 
 
